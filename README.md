@@ -28,7 +28,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="123">
   </a>
 
-  <h1 align="center">Analysis and Control Design for Coupled Tanks</h1>
+  <h1 align="center">Model Predictive Control of Vibration Systems</h1>
 
   <p align="center">
     <a href="https://github.com/Jesse-Alves?tab=repositories"><strong>View all repositories  »</strong></a>
@@ -46,17 +46,17 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+<!--         <li><a href="#built-with">Built With</a></li> -->
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+<!--       <a href="#getting-started">Getting Started</a> -->
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+<!--         <li><a href="#prerequisites">Prerequisites</a></li> -->
 <!--         <li><a href="#installation">Installation</a></li> -->
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+<!--     <li><a href="#usage">Usage</a></li> -->
 <!--     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li> -->
@@ -68,101 +68,18 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Abstract
 
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-The coupled tank system is an excellent type of plant to apply and analyze control techniques, including for didactic purposes. Therefore, the present work will present two control techniques for the system: one using differential equations that describe the model and the other using a plant identification method through experimentally obtained data.
+This article discusses the application of Model Predictive Control (MPC) on active vibration control. The advantages and drawbacks of the MPC approach if compared to its linear counterparts, in particular the ability of explicitly including actuator constraints and the increased computational cost, are considered. Finally, examples from the literature of Model Predictive Control of vibration systems are presented.
 
-
+[Full Article](https://github.com/Jesse-Alves/Model-Predictive-Control-of-Vibration-Systems/blob/main/Article%20-%20Model_Predictive_Control_of_Vibration_Systems.pdf)
+<!--
 <p float="left">
   <img src="images/img1.JPG" width="150" height="300" />
   <img src="images/img2.jpg" width="500" height="300" />
 </p>
-
-
-<!--
-<div align="center">
-  <a href="https://github.com/Jesse-Alves?tab=repositories">
-    <img src="images/img1.JPG" alt="Logo" width="200" height="400">
-  </a
-  <a href="https://github.com/Jesse-Alves?tab=repositories">
-    <img src="images/img2.jpg alt="Logo" width="200" height="100">
-  </a
-    <br />
-</div>
 -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-* [![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)](https://www.mathworks.com/)
-* [![Simulink](https://img.shields.io/badge/Simulink-4E148C?style=for-the-badge&logo=MathWorks&logoColor=white)](https://www.mathworks.com/products/simulink.html)
-
-<!-- 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url] -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is a control design project, where the mathematical model of coupled tanks are programed in Simulink file and the Controller in .m files. The details of the methodology and programming of the codes are described in the [Article](https://github.com/Jesse-Alves/Analysis-and-Control-Design-for-Coupled-Tanks/blob/main/Paper/Article%20-%20Analysis_and_Control_Design_for_Coupled_Tanks.pdf).
-
-### Prerequisites
-
-All this project was built using Matlab and Simulink tool. To test the controller project, it is important to have all those file in the same folder.
-<!--This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-  -->
-
-<!--
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Once all the files are inside of the same folder, run the code [ModeloLinear.m](https://github.com/Jesse-Alves/Analysis-and-Control-Design-for-Coupled-Tanks/blob/main/ModeloLinear.m) as the mais code. The other files are auxiliar functions. The Coupled Tanks Model can be found in the [simulink file](https://github.com/Jesse-Alves/Analysis-and-Control-Design-for-Coupled-Tanks/blob/main/TanquesAcoplados.slx).
-
-More details about the project can be found in the [report](https://github.com/Jesse-Alves/Analysis-and-Control-Design-for-Coupled-Tanks/blob/main/Paper/Article%20-%20Analysis_and_Control_Design_for_Coupled_Tanks.pdf) attached.
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
